@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Iserlohn</name>
+		<version>1.0</version>
+		<description><![CDATA[은하영웅전설 게임의 디자인을 베이스로 한 스킨입니다.]]></description>
+		<license><![CDATA[MIT]]></license>
+	</information>
+	<author>
+		<name>嶺上</name>
+		<homepage>https://ftl.star-light.space/</homepage>
+		<email>ansible@star-light.space</email>
+	</author>
+	<default>
+		<recentEntries>20</recentEntries>
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>5</itemsOnGuestbook>
+		<tagsInCloud>20</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>1</expandComment>
+		<lengthOfRecentNotice>40</lengthOfRecentNotice>
+		<lengthOfRecentEntry>30</lengthOfRecentEntry>
+		<lengthOfRecentComment>40</lengthOfRecentComment>
+		<lengthOfRecentTrackback>40</lengthOfRecentTrackback>
+		<lengthOfLink>40</lengthOfLink>
+		<entriesOnList>30</entriesOnList>
+		<commentMessage>
+			<none>0</none>
+			<single>1</single>
+		</commentMessage>
+		<trackbackMessage>
+			<none>0</none>
+			<single>1</single>
+		</trackbackMessage>
+		<contentWidth>600</contentWidth>
+		<toolbar>white</toolbar>
+	</default>
+</skin>
