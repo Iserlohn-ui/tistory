@@ -61,6 +61,16 @@ button,input[type='submit'],.close{
   box-shadow: inset 1px 1px 0 0 var(--white), inset -1px -1px 0 0 var(--black);
 }
 
+img{
+  border-width: 5px;
+  border-style: double;
+  Border-color: var(--black);
+  filter: blur(1px) grayscale(0.3) contrast(0.7);
+}
+img:hover{
+  filter:none;
+}
+
 /* disable unused elements */
 .container_postbtn,.tistoryProfileLayerTrigger {
   display: none;
@@ -243,47 +253,3 @@ button,input[type='submit'],.close{
   display: flex;
   justify-content: flex-end;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
