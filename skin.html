@@ -158,10 +158,11 @@
                       <input id="homepage" type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" />
                     </s_guest_form>
                   </s_guest_member>
-                  <div class="secret-wrapper">
-                    <label for="guestsecret">SECRET</label>
-                    <input id="guestsecret" type="checkbox" name="secret" />
-                  </div>
+                  <label class="checkbox secreat-wrapper">
+                    <input type="checkbox" class="input"  name="secret" />
+                    <div class="check"></div>
+                    <span class="span">SECRET</span>
+                  </label>
                   <textarea name="[##_guest_textarea_body_##]" cols="50" rows="6"></textarea>
                   <input type="submit" value="WRITE" onclick="[##_guest_onclick_submit_##]" />
 
@@ -365,10 +366,11 @@
                               <input id="homepage" type="text" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" />
                             </s_rp_guest>
                           </s_rp_member>
-                          <div class="secret-wrapper">
-                            <label for="guestsecret">SECRET</label>
-                            <input id="guestsecret" type="checkbox" name="[##_rp_input_is_secret_##]" />
-                          </div>
+                          <label class="checkbox secreat-wrapper">
+                              <input type="checkbox" class="input"  name="[##_rp_input_is_secret_##]" />
+                              <div class="check"></div>
+                              <span class="span">SECRET</span>
+                          </label>
                           <textarea name="[##_rp_input_comment_##]" cols="50" rows="6"></textarea>
                           <input type="submit" value="WRITE" onclick="[##_rp_onclick_submit_##]" />
                         </s_rp_input_form>
